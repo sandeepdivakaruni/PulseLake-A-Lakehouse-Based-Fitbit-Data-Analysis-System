@@ -4,7 +4,7 @@
 PulseLake is an end-to-end lakehouse data engineering project that ingests, processes, and analyzes Fitbit-style wearable data using batch + streaming pipelines.
 
 The platform combines:
-- Apache Kafka for real-time event streaming
+- Confluent Kafka for real-time event streaming
 - Azure Data Factory for incremental batch ingestion
 - Azure Databricks (PySpark) for transformations
 - Delta Lake with Medallion Architecture (Bronze, Silver, Gold)
